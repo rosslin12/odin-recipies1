@@ -1,0 +1,21 @@
+.columns{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 14rem);
+    row-gap: 1rem;
+    font-size: 16px;
+}
+
+html{
+    font-family: Monaco;
+}
+
+.size, body{
+    font-size: 16px;
+    font-family: Monaco;
+}
+
+ol > li, ul > li{
+    font-size: 16px;
+    font-family: Monaco;
+}
